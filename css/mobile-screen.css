@@ -1,0 +1,926 @@
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  /* .sidenav{
+        width: 60%;
+    } */
+  .hnav {
+    display: none;
+  }
+  .mainweb {
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .menu {
+    display: none;
+  }
+  .header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 99;
+    background: #0cb8b6;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerlogo {
+    display: none;
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .banner {
+    padding-top: 80px;
+    height: auto;
+    display: block;
+  }
+  .bannertext {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .bannertextimg1,
+  .bannertextimg2,
+  .bannertextimg3,
+  .bannertextimg4,
+  .bannertextimg5,
+  .bannertextimg6 {
+    display: none;
+  }
+  .bannerimg {
+    width: 100%;
+    position: unset;
+    padding: 0 30px 0 10px;
+  }
+  .bannertext h3 {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .bannertext h2 {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .bannertext a {
+    padding: 9px 25px;
+  }
+  .about {
+    display: block;
+    padding: 20px 0 0 0;
+  }
+  .aboutimg {
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+    position: relative;
+  }
+  .aboutin {
+    height: auto;
+    width: 48%;
+    align-items: unset;
+  }
+  .aboutimg .abu2 {
+    height: auto;
+    border-radius: 60px 0 60px 60px;
+  }
+  .aboutihn {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .aboutintex {
+    width: 48%;
+    height: 260px;
+    margin-top: 10px;
+  }
+  .aboutintex h5 {
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 0;
+    margin: 0;
+  }
+  .aboutintex span {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 25px;
+    color: #1f2278;
+  }
+  .extra {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .aboutimg .abu1 {
+    height: 260px;
+  }
+  .threereo {
+    margin-top: 25px;
+  }
+  .aboutin .abu3 {
+    border-radius: 60px 55px 60px 0;
+    margin-top: 10px;
+  }
+  .abouttext {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .aboutus h4 {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .aboutus h2 {
+    font-size: 27px;
+    line-height: normal;
+    margin: 10px 25px 10px 0;
+  }
+  .emergency {
+    width: 100%;
+    height: 60px;
+  }
+  .emergencyicon {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+  }
+  .works {
+    padding: 30px 0;
+  }
+  .firstnepp {
+    margin: 15px 0;
+  }
+  .works h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+  }
+  .threereoin {
+    width: 100%;
+  }
+  .firstnepi22 h6 {
+    font-size: 70px;
+  }
+  .ppn h5 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .firstnepic p {
+    font-size: 14px;
+  }
+  .medicalskills {
+    padding: 0;
+  }
+  .joining {
+    position: unset;
+    padding: 40px 5px 0;
+  }
+  .joiningin span {
+    font-size: 12px;
+  }
+  .joiningin h5 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .joiningin p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .interventioncall h2 {
+    width: 100%;
+  }
+  .laboratoryinbox1 a {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  .service {
+    padding: 20px 0 60px 0;
+  }
+  .works h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: normal;
+  }
+  .serviceinbox {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .explore a {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  .serviceinboxes {
+    width: 100%;
+  }
+  .port {
+    text-align: center;
+    padding: 40px 0 20px;
+  }
+  .port h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: normal;
+  }
+  .portfolioin {
+    padding: 0;
+  }
+  .portfolioallimg {
+    width: 100%;
+  }
+  .portfolio {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .footercourses {
+    padding-bottom: 15px;
+  }
+  .footertext p {
+    color: #fff;
+  }
+  .footercoursestext h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .recentpost h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .helpful {
+    padding-bottom: 15px;
+  }
+  .helpful p {
+    font-size: 15px;
+  }
+  .helpful span {
+    padding: 0;
+  }
+  .footercontact h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .instain {
+    width: 29%;
+    height: 76px;
+  }
+  .serviceinbox:nth-child(2),
+  .serviceinbox:nth-child(3),
+  .serviceinbox:nth-child(6) {
+    height: auto;
+  }
+  .instaimg {
+    gap: 0;
+  }
+  .testimonialsin {
+    padding: 0;
+  }
+  .testimonialstex {
+    padding-top: 30px;
+  }
+  .testimonialstex h4 {
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  .testimonialstex h2 {
+    font-size: 22px;
+    line-height: normal;
+    margin: 0;
+  }
+  .alltesttimonials {
+    padding: 20px 0;
+  }
+}
+/* ///////////////////////////////////////////////////// */
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .hnav {
+    display: none;
+  }
+  .mainweb {
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .menu {
+    display: none;
+  }
+  /* .sidenav{
+        width: 60%;
+    } */
+  .header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 99;
+    background: #0cb8b6;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerlogo {
+    display: none;
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .banner {
+    padding-top: 80px;
+    height: auto;
+    display: block;
+  }
+  .bannertext {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .bannertextimg1,
+  .bannertextimg2,
+  .bannertextimg3,
+  .bannertextimg4,
+  .bannertextimg5,
+  .bannertextimg6 {
+    display: none;
+  }
+  .bannerimg {
+    width: 100%;
+    position: unset;
+    padding: 0 30px 0 10px;
+  }
+  .bannertext h3 {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .bannertext h2 {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: normal;
+  }
+  .bannertext a {
+    padding: 9px 25px;
+  }
+  .about {
+    display: block;
+    padding: 20px 0 0 0;
+  }
+  .aboutus p {
+    font-size: 17px;
+    margin: 0;
+  }
+  .aboutimg {
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+    position: relative;
+  }
+  .aboutin {
+    height: auto;
+    width: 48%;
+    align-items: unset;
+  }
+  .aboutimg .abu2 {
+    border-radius: 60px 0 60px 60px;
+  }
+  .aboutihn {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .aboutintex {
+    width: 48%;
+    height: 260px;
+    margin-top: 10px;
+  }
+  .aboutintex h5 {
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 0;
+    margin: 0;
+  }
+  .aboutintex span {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 25px;
+    color: #1f2278;
+  }
+  .extra {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .abu1,
+  .abu2,
+  .abu3 {
+    height: 260px;
+  }
+
+  .threereo {
+    margin-top: 25px;
+  }
+  .aboutin .abu3 {
+    border-radius: 60px 55px 60px 0;
+    margin-top: 10px;
+  }
+  .abouttext {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .aboutus h4 {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .aboutus h2 {
+    font-size: 30px;
+    line-height: normal;
+    margin: 10px 25px 10px 0;
+  }
+  .firstnepi2200 h6 {
+    font-size: 80px;
+    margin: 0;
+  }
+  .ppn1 h5 {
+    font-size: 21px;
+    margin: 0;
+  }
+  .firstnepic00 p {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+  }
+  .emergency {
+    width: 47%;
+    height: 55px;
+  }
+  .emergencyicon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+  .firstne {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .firstnepic {
+    text-align: center;
+  }
+  .firstnepic1 {
+    text-align: center;
+  }
+  .firstnepp {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .firstnepic00 {
+    text-align: center;
+  }
+  .firstnepic190 {
+    text-align: center;
+  }
+  .works {
+    padding: 30px 0;
+  }
+  .works h4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .works h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: normal;
+  }
+  .threereoin {
+    width: 100%;
+  }
+  .firstnepi22 h6 {
+    font-size: 80px;
+    margin: 0;
+  }
+  .ppn h5 {
+    font-size: 21px;
+    margin: 0;
+    /* font-weight: 600; */
+  }
+  .firstnepic p {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0 20px 0;
+  }
+  .medicalskills {
+    padding: 0;
+  }
+  .joining {
+    position: unset;
+    padding: 40px 5px 0;
+  }
+  .joiningin span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .joiningin h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .joiningin p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+  .interventioncall h2 {
+    width: 48%;
+    font-size: 13px;
+  }
+  .laboratoryinbox1 a {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  .service {
+    padding: 20px 0 60px 0;
+  }
+  .serviceinbox {
+    width: 47%;
+    padding: 30px 20px;
+  }
+  .explore a {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  .serviceinboxes {
+    width: 100%;
+  }
+  .port {
+    text-align: center;
+    padding: 40px 0 20px;
+  }
+  .port h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: normal;
+  }
+  .portfolioin {
+    padding: 0;
+  }
+  .portfolioallimg {
+    width: 100%;
+  }
+  .portfolio {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .footercourses {
+    padding-bottom: 15px;
+  }
+  .footertext p {
+    color: #fff;
+  }
+  .footercoursestext h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .recentpost h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .helpful {
+    padding-bottom: 15px;
+  }
+  .helpful p {
+    font-size: 15px;
+  }
+  .helpful span {
+    padding: 0;
+  }
+  .footercontact h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .instain {
+    width: 29%;
+    height: 76px;
+  }
+  .serviceinbox:nth-child(2),
+  .serviceinbox:nth-child(3),
+  .serviceinbox:nth-child(6) {
+    width: 47%;
+    height: auto;
+  }
+  .interventioncall {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+/* ////////////////////////////// */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .navin {
+    width: 60%;
+    gap: 30px;
+  }
+  .navin a {
+    font-size: 14px;
+  }
+  .navcall {
+    width: 40%;
+  }
+  .navcall span {
+    font-size: 15px;
+  }
+  .navcall a {
+    font-size: 20px;
+  }
+  /* .mainweb {
+    height: 100vh;
+  } */
+  .menu {
+    width: 75%;
+    column-gap: 35px;
+  }
+  .menu a {
+    font-size: 14px;
+  }
+  .menu i:nth-child(6) {
+    display: none;
+  }
+  .menu a:nth-child(7) {
+    display: none;
+  }
+  .allcontact {
+    display: none;
+  }
+  .headerlogo {
+    width: 20%;
+  }
+  .bannertext {
+    width: 65%;
+    padding: 0px 70px 0 0;
+  }
+  .bannertext h2 {
+    font-size: 33px;
+    line-height: normal;
+  }
+  .bannerimg {
+    width: 45%;
+    z-index: 9;
+  }
+  .bannertextimg3 {
+    left: 70px;
+  }
+  .bannertextimg1 {
+    width: 13%;
+    top: 150px;
+    left: 350px;
+    z-index: 9;
+  }
+  .bannertextimg2 {
+    left: -30px;
+    bottom: 70px;
+  }
+  .bannertextimg4 {
+    left: 300px;
+    bottom: -40px;
+  }
+  .bannertextimg5 {
+    right: 20px;
+    bottom: -10px;
+    z-index: -1;
+  }
+  .about {
+    position: unset;
+    justify-content: space-between;
+  }
+  .aboutimg {
+    width: 59%;
+    position: relative;
+  }
+  .aboutin {
+    width: 47%;
+    align-items: unset;
+  }
+  .abu1,
+  .abu2,
+  .abu3 {
+    height: 260px;
+  }
+  .aboutintex {
+    width: 47%;
+    height: 260px;
+  }
+  .extra {
+    left: 48%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .abouttext {
+    width: 39%;
+  }
+  .aboutus h4 {
+    font-size: 15px;
+  }
+  .aboutus h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: normal;
+  }
+  .aboutus p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .eqbm {
+    padding-top: 10px;
+    gap: 15px;
+  }
+  .emergency {
+    width: 100%;
+  }
+  .read {
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .threereoin {
+    width: 100%;
+  }
+  .ppn h5 {
+    font-size: 18px;
+  }
+  .ppn1 h5 {
+    font-size: 21px;
+  }
+  .medicalskills {
+    position: relative;
+    padding: 90px 0 20px;
+  }
+  .medicalskillsinpic img {
+    height: 550px;
+  }
+  .joining {
+    position: unset;
+    padding: 6px 0 0 20px;
+  }
+  .joiningin h5 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .joiningin p {
+    line-height: normal;
+  }
+  .interventioncall {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .interventioncall h2 {
+    width: 47%;
+    font-size: 14px;
+    padding: 18px 10px;
+  }
+  .laboratoryinbox1 a {
+    padding: 12px 20px;
+    margin: 0;
+    font-size: 15px;
+  }
+  .service {
+    padding: 40px 0 60px 0;
+  }
+  .works {
+    padding: 30px 0 50px;
+  }
+  .works h2 {
+    font-size: 30px;
+    margin: 10px 25px 20px 0;
+    line-height: normal;
+  }
+  .serviceinbox {
+    width: 47%;
+  }
+  .portfolio {
+    height: 500px;
+    margin-bottom: 150px;
+  }
+  .port h2 {
+    font-size: 35px;
+    margin: 10px 0;
+  }
+  .portfolioallimg {
+    position: relative;
+  }
+  .portfolioimg img {
+    height: 200px;
+    object-fit: unset;
+  }
+  .portfolioimg {
+    height: 200px;
+  }
+  .portfolioallimg:hover .allpluscon {
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .portfolioallimg:hover .plus1 {
+    width: 50px;
+  }
+  .portfolioallimg:hover .plus2 {
+    height: 50px;
+  }
+  .serviceinboxes {
+    width: 100%;
+  }
+  .caption {
+    top: 85%;
+  }
+  .caption h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .caption p {
+    font-size: 12px;
+  }
+  .footerlogo {
+    width: 50%;
+  }
+  .footercoursestext h3 {
+    font-size: 20px;
+  }
+  .footercourses a {
+    font-size: 13px;
+  }
+  .recentpost h4 {
+    font-size: 20px;
+  }
+  .helpful p {
+    font-size: 13px;
+  }
+  .helpful a {
+    font-size: 13px;
+  }
+  .footercontact h2 {
+    font-size: 20px;
+  }
+  .instaimg {
+    gap: 10px;
+  }
+  .instain {
+    width: 46%;
+    height: 57px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1470px) {
+  .joiningin h5 {
+    padding: 10px 0;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+  .joiningin p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+  .interventioncall h2 {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+}
+
+@media only screen and (min-width: 1471px) and (max-width: 1750px) {
+  .joiningin h5 {
+    padding: 10px 0;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0;
+  }
+  .joiningin p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+  .interventioncall h2 {
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+}
