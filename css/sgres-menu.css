@@ -18,7 +18,7 @@
   z-index: 9999;
   top: 0;
   left: 0;
-  background: #fff;
+  background: #0f14b5;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 00px;
@@ -26,16 +26,14 @@
 }
 
 .sidenav a {
-  padding: 4px 0 4px 0px;
   text-decoration: none;
   font-size: 12px !important;
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
-  color: #333;
   text-decoration: none !important;
-  padding: 5px 5px;
-  color: #333 !important;
+  padding: 0 5px;
+  color: #fff !important;
 }
 .res-menu-side li a {
   text-align: left;
@@ -55,8 +53,8 @@
   position: absolute;
   top: 0;
   right: 0px;
-  font-size: 20px !important;
-  margin-left: 50px;
+  font-size: 32px !important;
+  margin-left: 0;
   color: #fff !important;
 }
 .sidenav .closebtn {
@@ -64,10 +62,10 @@
 }
 
 .res-menu {
-  margin-left: 0;
-  font-size: 30px;
+  margin-right: 15px;
+  font-size: 26px;
   display: block !important;
-  color: #fff;
+  color: #000;
 }
 
 .nav-logo-holder {
@@ -145,6 +143,30 @@ li.drop.activedrop > a:after {
   .res-menu {
     display: block !important;
     /* position: absolute; */
+  }
+  .about-thumb-area ul li{
+    padding: 0 5px;
+  }
+  .about-thumb-area:after{
+    top: 35%;
+  }
+  .doctorint{
+    padding: 0;
+  }
+  .doctorint h4{font-size: 22px;}
+  .works h2{font-size: 20px;}
+  .doctorint h2{font-size: 26px;  margin: 0px 0 20px 0;}
+  .doctorlistcontant{margin-bottom: 20px;}
+  .aboutservice {
+      padding: 0px 0 60px 0;
+  }
+  .instaimg{margin-bottom: 30px;}
+  .porfolio-bg {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .headerin{
+    justify-content: inherit;
   }
 }
 /* -:========================================:res side menu end:========================================:-*/
